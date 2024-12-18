@@ -96,6 +96,30 @@ This will build both the frontend and backend containers and start the applicati
 3. Encryption: AES-GCM for file encryption and decryption
 4. Docker: Docker Compose to containerize and run both frontend and backend
 
+## UI Screenshots
+Register:
+
+<img src="media/Register.png" width="800" alt="RegisterSS">
+
+Login:
+
+<img src="media/Login.png" width="800" alt="LoginSS">
+
+2FA:
+
+<img src="media/2FA.png" width="800"  alt="2faSS">
+
+FileUpload:
+
+<img src="media/FileUpload.png" width="800" alt="FileUploadSS">
+
+File Access:
+
+<img src="media/FileAccess.png" width="800" alt="FileAccessSS">
+
+Admin View:
+
+<img src="media/AdminView.png" width="800" alt="AdminViewSS">
 
 ## Contributing
 1. Fork the repository.
