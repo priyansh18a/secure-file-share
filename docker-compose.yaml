@@ -1,0 +1,22 @@
+services:
+  frontend:
+    build:
+      context: ./file-sharing-app-frontend
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./file-sharing-app-frontend:/app
+    working_dir: /app
+    command: npm start
+    depends_on:
+      - backend
+
+  backend:
+    build:
+      context: ./file-sharing-app-backend
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./file-sharing-app-backend:/app
+    working_dir: /app
+    command: python manage.py runserver 0.0.0.0:8000
